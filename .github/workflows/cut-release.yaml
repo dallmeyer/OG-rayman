@@ -22,12 +22,12 @@ jobs:
     uses: open-goal/mod-bundling-tools/.github/workflows/mod-bundler.yml@v1
     with:
       semverBump: ${{ inputs.bump }}
-      metadataName: "Test Mod Bundle"
-      metadataDescription: "This is a test mod bundle. 2"
+      metadataName: "Rayman - The Precursor Legacy"
+      metadataDescription: "Almost Rayman 4"
       metadataSupportedGames: "jak1"
-      metadataAuthors: "barg,vaser"
-      metadataTags: "rng,gameplay-mod"
-      metadataWebsiteUrl: "https://www.example.com/this/is/optional"
+      metadataAuthors: "Clankape"
+      metadataTags: "model-replacement"
+      metadataWebsiteUrl: "https://github.com/dallmeyer/OG-rayman/blob/main/README.md"
       skipMacOS: true
       skipLinux: true
       toolingBinaryDir: "out/build/Release/bin"
